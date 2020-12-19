@@ -1,40 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Main</title>
+        <title> Main</title>
+
+        <link href="css/variables.css" rel="stylesheet">
         <link href="css/styles.css" rel="stylesheet">
     </head>
 <body>
-  <h1><span>For lessons</span></h1>
+  <header class="bg-white">
+  <h1><span>Some goods & services</span></h1>
   <!--navigation 0-9a-f 255-->
-  <div class="navbar" id="navbar"></div>
-   <div>
-   <div class="navbar-brand">
-     <h3><span class="text-dark text-uppercase font-weight-bold">Navigation</span></h3>
-   </div>
-   <ul class="navbar-nav">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="contact.html">Contact</a></li>
-   </ul>
-   <ul class="navbar-tool">
-    <li><a href="#"><i class="fas fa-cart-plus"></i>Shopping cart</a></li>
-    <li><a href="#"><i class="fas fa-heart"></i>Likes</a></li>
-    <li><a href="#"><i class="fas fa-sign-in-alt"></i>Login</a></li>
-   </ul>
-  </div>
+  <nav id="nav">
+        <div class="navbar" id="navbar"></div>
+        <div>
+        <div class="navbar-brand">
+          <h3><span class="text-dark text-uppercase font-weight-bold">Navigation</span></h3>
+        </div>
+        <ul class="navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul class="navbar-tool">
+          <li><a href="#"><i class="fas fa-cart-plus"></i>Shopping cart</a></li>
+          <li><a href="#"><i class="fas fa-heart"></i>Likes</a></li>
+          <li><a href="#"><i class="fas fa-sign-in-alt"></i>Login</a></li>
+        </ul>
+        </div>
+  </nav>
    <!--navigation-->
+</header>
    <!--slider-->
-   <!--header h1 - h6 -->
-   <h1>Top trend</h1>
-   <!--carousel-->
-   <!--header-->
-   <!--catalog-->
-   <!--Product-->
-   <!--servises--> 
-   <!--sibscribe-->
-   <!--footer-->
+   <section class="hero">
+      <article>
+        <header>
+          <p>Si vis pacem</p>
+          <h1>para bellum </h1>
+          <a class="btn btn-dark">Newest collection</a>
+        </header>
+      </article>
+   </section>
+  <div class="container">
+      <!--header-->
+      <section class="bg-gray my-3">
+          <header>  
+          <h2>TOP TREND</h2>
+          </header>
+      </section>
+      <section>
+          <!--catalog-->
+          <!--Product-->
+          <h3>Bow</h3>
+          <div>
+            <img src="images/bow.jpg"width="155" height="111">
+            <h4>price $32</h4>
+            <div class="navbar-product">
+            <ul>
+              <li><a href="#" class="btn btn-dark"><i class="far fa-thumbs-up"></i> Like </a></li>
+              <li><a href="#" class="btn btn-dark"><i class="fas fa-cart-arrow-down"></i> Add to cart </a></li>
+              <li><a href="#" class="btn btn-dark"><i class="far fa-gem"></i> More information </a></li>
+            </ul>
+            </div>
+          </div>
+      </section>
+
+      <section>
+        <header>
+        <!--Product-->
+        <h3>Sword</h3>
+        <div>
+          <img src="images/sword.jpg"width="155" height="111">
+          <h4>price $55</h4>
+          <div class="navbar-product">
+            <ul>
+              <li><a href="#" class="btn btn-dark"><i class="far fa-thumbs-up"></i> Like </a></li>
+              <li><a href="#" class="btn btn-dark"><i class="fas fa-cart-arrow-down"></i> Add to cart </a></li>
+              <li><a href="#" class="btn btn-dark"><i class="far fa-gem"></i> More information </a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      </section>
+      <!--Product-->
+      <section>
+        <header>
+        <h3>Viking's mace</h3>
+        <div>
+          <img src="images/mace.jpg" width="155" height="111">
+          <h4>price $73</h4>
+          <div class="navbar-product">
+          <ul>
+            <li><a href="#" class="btn btn-dark"><i class="far fa-thumbs-up"></i> Like </a></li>
+            <li><a href="#" class="btn btn-dark"><i class="fas fa-cart-arrow-down"></i> Add to cart </a></li>
+            <li><a href="#" class="btn btn-dark"><i class="far fa-gem"></i> More information </a></li>
+          </ul>
+          </div>
+        </div>
+        </header>
+      </section>
+      <!--servises-->
+      <section class="py-5 bg-gray">
+        <div class="row">
+            <div class="col col-4 float-left">
+                <i class="far fa-heart"></i>
+                <h2>Free shipping</h2>
+                <p>Free shipping worldwide</p>
+            </div>
+            <div class="col col-4 float-left">
+                <i class="far fa-heart"></i>
+                <h2>Free shipping</h2>
+                <p>Free shipping worldwide</p>
+            </div> 
+            <div class="col col-4 float-right">
+                <i class="far fa-heart"></i>
+                <h2>Free shipping</h2>
+                <p>Free shipping worldwide</p>
+            </div>
+        </div>
+      </section>
+      <div class="clearfix"></div>
+      <!--sibscribe-->
+      <section>
+        <header>
+        
+        </header>
+      </section>
+  </div>
+
+      <!--footer--> 
+      <footer class="footer">
+          <p>&COPY; 2020 All rights reserved</p>
+          <p>Made by Signum92</p> 
+      </footer>
 </body>
 </html>
